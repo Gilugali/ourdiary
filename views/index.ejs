@@ -1,0 +1,33 @@
+
+ 
+
+<%- include("./partials/header")  %>
+<!-- <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="/">Todo App</a>
+</nav> -->
+<h4>So,babe How was your day🫣</h4>
+ <p>I miss you everyday 😭</p>
+
+    
+    <form action="/add/todo" method="POST">
+        <input type="text" name="todo" class="input" placeholder="How was your day? 😅">
+       
+        <!-- <input type="submit" value="SHOW ME" class="send"> -->
+        <button type="submit" class="send">POST</button>
+    </form>
+
+
+    <ul class="notes">
+        <% todo.forEach(todos => { %>
+        <li class="response"><%= todos.todo %>
+               
+        <% }) %>
+
+    </ul>
+
+
+
+
+
+
+<%- include("./partials/footer")  %>

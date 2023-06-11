@@ -1,0 +1,82 @@
+*{
+    background-image: url('/img/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    padding: 0;
+    margin:0
+
+
+}
+h4{
+   text-align: center;
+    font-family: 'Indie Flower';
+    font-size: 36px;
+    /* color: #8b4513; */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  
+}
+.input{
+   position:sticky;
+   width: 100%;
+   border-radius: 20px;
+   padding: 24px;
+   margin-top: 10px;
+   font-size: 18px;
+   border-bottom-right-radius: 2;
+   border-top-right-radius: 2;
+   resize: none;
+}
+
+.send{
+    color: rgb(74, 121, 251);
+    position:sticky;
+    bottom: 10%;
+    left: 40%;
+    height: 50px;
+    right: 0;
+    padding: 10px;    
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    background: pink;
+    font-weight:bold;
+    font-size: larger;
+    border-radius: 10px;
+    
+    
+
+
+}
+.response{
+    background:  #212121;
+    
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    list-style-type: none;
+    border-color: blue;
+
+
+}
+.response p{
+    padding: 10px;
+}
+p{
+    text-align: center;
+    color: red;
+}
+@media all and (width > 600px){
+*{
+    background: none;
+}
+}
