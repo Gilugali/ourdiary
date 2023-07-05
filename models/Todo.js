@@ -6,7 +6,7 @@ const TodoSchema = new mongoose.Schema({
     required: true,
   },
   type:Date,
-  default:Date.now
+  default:Date
 });
 
 module.exports = new mongoose.model("Todo", TodoSchema);
