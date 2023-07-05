@@ -1,5 +1,5 @@
 
- 
+ const colors = ['red', 'blue', 'purple', 'orange']
 
 const router = require("express").Router()
 const Todo = require("../models/Todo");

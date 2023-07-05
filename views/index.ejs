@@ -11,7 +11,7 @@
     
     <form action="/add/todo" method="POST">
         <input type="text" name="todo" class="input" placeholder="How was your day? 😅">
-       
+         
         <!-- <input type="submit" value="SHOW ME" class="send"> -->
         <button type="submit" class="send">POST</button>
     </form>
@@ -19,8 +19,10 @@
 
     <ul class="notes">
         <% todo.forEach(todos => { %>
+            
+
         <li class="response"><%= todos.todo %>
-               
+            <button class="delete">delete</button>
         <% }) %>
 
     </ul>
